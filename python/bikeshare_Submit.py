@@ -342,11 +342,7 @@ def main():
         else:
             print("Data for the selected month is not available in the CSV.")
         
-        review_data(df)
-     # I became increasingly tired of adjusting each function to confirm if data is present, and therefore
-     # requested a validation of month field to be validated before proceeding through the functions 
-     # This still didn't operate as I expected though, but didn't hurt code from executing - would probably need
-     # need to be pulled for speed at some point        
+        review_data(df)       
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
