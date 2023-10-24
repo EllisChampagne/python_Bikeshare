@@ -19,3 +19,5 @@ Chicago: https://divvybikes.com/system-data
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+### Required Step
+I am updating this "Required Step" section solely because I need to validate the ability to commit an edit. 
