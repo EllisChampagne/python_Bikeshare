@@ -2,7 +2,7 @@
 Original files completed on 10/18/2023, and the Git Project initiated on 10/24. 
 
 ### Project Title
-BikeShare Analysis - Washington DC, New York City & Chicago
+Metropolis Bikeshare Data Analysis
 
 ### Description
 This project allows users to analyze bikeshare data from three major cities. 
