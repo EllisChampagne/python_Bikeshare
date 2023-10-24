@@ -155,7 +155,7 @@ def time_stats(df):
         print('No data available for the start hour.')
     
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*60)
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
@@ -198,7 +198,7 @@ def station_stats(df):
         print("No data available for the selected filters.")
    
     print("\nThe Station Stats took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*60)
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
@@ -232,7 +232,7 @@ def trip_duration_stats(df):
         print("No Trip Duration data available for the selected filters - please try again.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*60)
 
 def user_stats(df):
     """Displays statistics on bikeshare users."""
@@ -286,7 +286,7 @@ def user_stats(df):
 #below statement runs across the defined functions until complete
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*60)
 
 def review_data(df):
     print('\n~~~~~ Sample Data ~~~~~\n')
@@ -326,7 +326,7 @@ def review_data(df):
             print("Invalid input. Please enter 'Yes' or 'No'.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*60)
 
 
 def main():
